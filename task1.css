@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#fakeheader{
+    height: 10vh;
+    width: 100%;
+}
+#LP{
+    font-size: large;
+    font-weight: bold;
+    margin: 3%;
+    padding: 15px 20px;
+    border-radius: 2px;
+}
+#LP:hover{
+    background-color: rgb(253, 207, 150);
+}
+#page1{
+    height: 90vh;
+    width: 100%;
+}
+#creativeagency{
+    height: 72vh;
+    width: 100%;
+}
+#creativeagency img{
+    height: 72vh;
+    width: 100%;
+    z-index: 5;
+}
+#cda{
+    position: absolute;
+    top: 36%;
+    left: 15%;
+    height: 270px;
+    width: 1070px;   
+}
+#launchbuisness{
+    height: 18vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#page2{
+    background-color: white;
+    height: 90vh;
+    width: 100%;
+}
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
+.icon{
+    margin: 3%;
+    padding: 15px 20px;
+    border-radius: 2px;
+}
+.icon:hover{
+    background-color: rgb(253, 207, 150);
+}
+#search:hover{
+    background-color: rgb(253, 207, 150);
+}
+#search{
+    padding:15px;
+    border-radius: 50%;
+}
+#launch{
+    display: flex;
+}
+#online{
+    display: flex;
+}
+#time{
+    display: flex;
+}
+.l{
+    font-weight: bolder;
+}
+.l P{
+    margin-left: 20px;
+}
+#aboutus{
+    height: 55%;
+    width: 100%;
+    background-color: white;
+    padding-left:165px ;
+    display: flex;
+    background-color: white;
+}
+#years{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    padding-left:165px ;
+}
+#photo{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+}
+#photo img{
+    height: 100%;
+    margin-left: 20%;
+}
+#services{
+    background-color:white;
+    height: 45%;
+    width: 100%;
+}
+#os{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    padding-left: 165px;
+}
+#card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#c1{
+    height: 200px;
+    width: 400px;
+}
+#c2{
+    height: 200px;
+    width: 400px;
+}
+#c3{
+    height: 200px;
+    width: 400px;
+}
+.c img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
